@@ -13,7 +13,7 @@ print 'Answer to part 1 is ', I
 #Del 2 and 3
 def width(y, D):
     p = 62.5
-    return p*(D-y)*(40-20*exp(-(0.01*y)**2));
+    return p*(D-y)*(40-20*exp(-(0.01*y)**2))
 
 D = arange(10, 101) #D is integer! Can add dtype=float64 as argument to fix.
 
@@ -29,15 +29,15 @@ for i in range(len(D)):
     # !! Avoiding the . after 2  in the line below
     # leads to a bug due to h being integer, if D is integer
     # No longer so in Python 3 as far I know.
-    h = D[i]/2.; 
-    yh = linspace(0, D[i], D[i]/h+1);
-    y2h = linspace(0, D[i], D[i]/(2*h)+1);
+    h = D[i]/2. 
+    yh = linspace(0, D[i], D[i]/h+1)
+    y2h = linspace(0, D[i], D[i]/(2*h)+1)
 
-    inth = trapz(width(yh, D[i]), yh);
-    int2h = trapz(width(y2h, D[i]), yh);
+    inth = trapz(width(yh, D[i]), yh)
+    int2h = trapz(width(y2h, D[i]), yh)
     
     #calculate initial error
-    error = abs(inth-int2h)/3;
+    error = abs(inth-int2h)/3
     
     #if the error is two large, decrease h until its ok
     while error > tol:
@@ -63,15 +63,15 @@ for i in range(len(D)):
 
 figure
 subplot(311)
-plot(D,errorvals, '-o')
+plot(D, errorvals, '-o')
 xlabel('D, fot')
 ylabel('Error estimate')
 subplot(312)
-plot(D,hvals,'-o')
+plot(D, hvals,'-o')
 xlabel('D, fot')
 ylabel('h, fot')
 subplot(313)
-plot(D,nvals, '-o')
+plot(D, nvals, '-o')
 xlabel('D, fot')
 ylabel('n')
 show()

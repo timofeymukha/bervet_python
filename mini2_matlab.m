@@ -58,14 +58,14 @@ end
 
 figure;
 subplot(311)
-plot(D,errorvals, '-o');
+plot(D, errorvals, '-o');
 xlabel('D, fot')
 ylabel('Error estimate')
 subplot(312)
-plot(D,hvals,'-o');
+plot(D, hvals,'-o');
 xlabel('D, fot')
 ylabel('h, fot')
 subplot(313)
-plot(D,nvals, '-o');
+plot(D, nvals, '-o');
 xlabel('D, fot')
 ylabel('n')
