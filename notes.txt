@@ -1,58 +1,55 @@
-Kommer inte göra kursen bättre att byta till python
-Finns bättre material på nätet för självstudier
-Bättre första språk?
-Bättre varumärke?
-Gratis och fritt
+'The course' is referring to BV1. Other considerations probably apply for the other courses.
 
-Passar det i BV1?
-    Matlab bättre som miniräknare?
-        Mer interaktiv
-        Mer användargränsnitt
-        Workspace lätt att se
-        Modifiera figurer.
-    Kanske löses med Spyder?
-        Är det värt? Då borde man bara köra Matlab istället
+# Benefits of Python
+    Lots of available material for students to study programming on their own
+    A full-blown programming language
+    More useful for students in the future
+    Free and open
+    Better as a first language?
+    A better brand than Matlab?
 
+# Drawbacks of Python
+    Not as interactive as Matlab, Figures for example.
+    No native GUI, might be solved with Spyder
+    A full-blown programming language?
+    Unless an IDE is used students will have to get comfortable with the command line
+    Will not fix many of the problems with the course
 
-Vad är målen med kursen?
-    Lära sig använda en miniräknare?
-    Lära sig programmera?
-    Lära sig vetenskapen?
+# Questions to answer and think about to inform the decision
+    Do we want a programming language or a calculator
+        Matlab probably better as a calculator
+        What should the students learn?
 
-Finns några krav från andra kurser?
-    Om inte, är det lätt att göra om materialet.
+    What are the goals of the course and why?
+        Learn how to use Matlab as a calculator?
+        Learn how to program?
+        Learn about scientific computing?
 
+    What are the requirements from other courses?
 
-Undviker vi att undervisa programmering?
-    Pratar inte om variabler, funktioner... osv
-Om vi vill undvika det är det bäst att använda Matlab.
+# Random thought
+    The course is trying to fit two concepts
+        Matlab as a calculator without knowledge about errors, order of accuracy ...
+        Programming and Scientific computing
 
+# Setup
+    Download anaconda
 
-Kursen har två delar som kanske borde skiljas
-    Matlab som miniräknare utan kunskap om noggrannhetsordning osv
-    Programmering och beräkningsvetenskap
+# Example
+    Tim
+        Very similar to Matlab
 
+    Jonatan
+        Function, several in one file
+        namespaces
+        Example of anonymous functions
 
-# Installation
-Tanka anaconda
-
-
-# Exempel
-Tims
-    Samma lika som matlab
-Jonatans
-    namespaces
-    funktioner
-    exempel på anonyma funktioner
-
-
-Annat
+# Other notes
     ndarray vs matrix
-        alla operationer är elementvis <3
-        funktion för matrismult
+        all operations on arrays are element wise <3
+        functions for dot products and matrix products
+        There is also a specific matrix type (not recommended?)
 
-
-
-Notebooks
-    Lab eller rapport
-    finns även för matlab
+# Notebooks
+    For labs or reports
+    Also available for Matlab
