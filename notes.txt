@@ -1,0 +1,58 @@
+Kommer inte göra kursen bättre att byta till python
+Finns bättre material på nätet för självstudier
+Bättre första språk?
+Bättre varumärke?
+Gratis och fritt
+
+Passar det i BV1?
+    Matlab bättre som miniräknare?
+        Mer interaktiv
+        Mer användargränsnitt
+        Workspace lätt att se
+        Modifiera figurer.
+    Kanske löses med Spyder?
+        Är det värt? Då borde man bara köra Matlab istället
+
+
+Vad är målen med kursen?
+    Lära sig använda en miniräknare?
+    Lära sig programmera?
+    Lära sig vetenskapen?
+
+Finns några krav från andra kurser?
+    Om inte, är det lätt att göra om materialet.
+
+
+Undviker vi att undervisa programmering?
+    Pratar inte om variabler, funktioner... osv
+Om vi vill undvika det är det bäst att använda Matlab.
+
+
+Kursen har två delar som kanske borde skiljas
+    Matlab som miniräknare utan kunskap om noggrannhetsordning osv
+    Programmering och beräkningsvetenskap
+
+
+# Installation
+Tanka anaconda
+
+
+# Exempel
+Tims
+    Samma lika som matlab
+Jonatans
+    namespaces
+    funktioner
+    exempel på anonyma funktioner
+
+
+Annat
+    ndarray vs matrix
+        alla operationer är elementvis <3
+        funktion för matrismult
+
+
+
+Notebooks
+    Lab eller rapport
+    finns även för matlab
